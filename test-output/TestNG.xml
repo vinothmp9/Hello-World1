@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite"  parallel="methods" thread-count="2">
+<test name="Test Case">
+<parameter name="name" value="hi"/>
+<parameter name="pass" value="hi12"/>
+<classes>
+<class name="testNG.ParameterizationConcepts" ></class>
+</classes>
+</test>
+</suite>
+
+<!-- <class name="testNG.Dependencies"></class>
+<class name="testNG.FirstSampleTestNg"></class>
+<class name="testNG.PriorityOne"></class>
+<class name="testNG.SkiptestCase"></class> -->
+
+
+<!-- <listeners>
+<listener class-name="testNG.Ilisteners"></listener>
+</listeners>
+
+ -->
+<!-- <suite name="Test Suite" verbose="1"  parallel="methods" thread-count="4"> -->
